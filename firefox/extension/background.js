@@ -12,6 +12,6 @@ const youURL = 'https://you.com'
 // Launch You.com on toolbar icon click
 chrome.action.onClicked.addListener(async () => {
     const [activeTab] = await chrome.tabs.query({ active: true, currentWindow: true }),
-          query = new URL(activeTab?.url || 'about:blank').searchParams.get('q') || chrome.i18n.getMessage('query_hi')
+           query = new URL(activeTab?.url || 'about:blank').searchParams.get('q') || chrome.i18n.getMessage('query_hi')
     chrome.tabs.create({ url: `${youURL}/search?q=${query}&tbm=youchat` })
 })
