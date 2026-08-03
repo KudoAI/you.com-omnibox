@@ -4,13 +4,13 @@
   "description": "Type @you in address bar to get answers from You.com AI",
   "author": {
     "name": "KudoAI & contributors",
-    "email": "authors@kudoai.com",
-    "url": "https://kudoai.com"
+    "email": "authors@kudoai.org",
+    "url": "https://kudoai.org"
   },
-  "homepage": "https://kudoai.com/youomnibox",
+  "homepage": "https://youomnibox.kudoai.org",
   "bugs": {
     "url": "https://github.com/KudoAI/you.com-omnibox/issues",
-    "email": "support@kudoai.com"
+    "email": "support@kudoai.org"
   },
   "license": "MIT",
   "funding": [
